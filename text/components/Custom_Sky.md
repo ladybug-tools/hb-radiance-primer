@@ -7,6 +7,8 @@
 
 Create a Custom sky from direct and diffuse irradiance. 
 
+
+
 #### Inputs
 * ##### north 
 A number between 0 and 360 that represents the degrees off from the y-axis to make North. This can also be a vector to set the North. Default is 0. The default North direction is the Y-axis (0 degrees). 
@@ -21,7 +23,7 @@ An integer between 1 and 12 for the month of the year (default: 6).
 * ##### day 
 An integer between 1 and 31 for the day of the month (default: 21). 
 * ##### hour 
-A number between 0 and 23.999.. for the hour of the day (default: 12). 
+A number between 0 and 23.999 for the hour of the day (default: 12). 
 
 #### Outputs
 * ##### sky
