@@ -1,0 +1,12 @@
+#### Component list:
+* ![IMAGE](../../images/icons/CIE_Standard_Sky.png) [CIE Standard Sky](../components/CIE_Standard_Sky.md)
+* ![IMAGE](../../images/icons/Certain_Illuminance.png) [Certain Illuminance](../components/Certain_Illuminance.md)
+* ![IMAGE](../../images/icons/Climatebased_Sky.png) [Climatebased Sky](../components/Climatebased_Sky.md)
+* ![IMAGE](../../images/icons/Custom_Sky.png) [Custom Sky](../components/Custom_Sky.md)
+* ![IMAGE](../../images/icons/Sky_Matrix.png) [Sky Matrix](../components/Sky_Matrix.md)
+* ![IMAGE](../../images/icons/Sun_Matrix.png) [Sun Matrix](../components/Sun_Matrix.md)
+* ![IMAGE](../../images/icons/Tau_Clear_Sky_from_STAT.png) [Tau Clear Sky from STAT](../components/Tau_Clear_Sky_from_STAT.md)
+* ![IMAGE](../../images/icons/Wea_From_EPW.png) [Wea From EPW](../components/Wea_From_EPW.md)
+* ![IMAGE](../../images/icons/ClearSky.png) [ClearSky](../components/ClearSky.md)
+* ![IMAGE](../../images/icons/Deconstruct_Wea.png) [Deconstruct Wea](../components/Deconstruct_Wea.md)
+* ![IMAGE](../../images/icons/Wea_from_Zhang-Huang.png) [Wea from Zhang-Huang](../components/Wea_from_Zhang-Huang.md)
