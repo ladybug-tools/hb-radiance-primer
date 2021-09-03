@@ -1,0 +1,13 @@
+#### Component list:
+* ![IMAGE](../../images/icons/Annual_Daylight_Metrics.png) [Annual Daylight Metrics](../components/Annual_Daylight_Metrics.md)
+* ![IMAGE](../../images/icons/Daylight_Control_Schedule.png) [Daylight Control Schedule](../components/Daylight_Control_Schedule.md)
+* ![IMAGE](../../images/icons/Spatial_Daylight_Autonomy.png) [Spatial Daylight Autonomy](../components/Spatial_Daylight_Autonomy.md)
+* ![IMAGE](../../images/icons/Annual_Average_Values.png) [Annual Average Values](../components/Annual_Average_Values.md)
+* ![IMAGE](../../images/icons/Annual_Cumulative_Values.png) [Annual Cumulative Values](../components/Annual_Cumulative_Values.md)
+* ![IMAGE](../../images/icons/Annual_Peak_Values.png) [Annual Peak Values](../components/Annual_Peak_Values.md)
+* ![IMAGE](../../images/icons/Annual_Results_to_Data.png) [Annual Results to Data](../components/Annual_Results_to_Data.md)
+* ![IMAGE](../../images/icons/Adjust_HDR.png) [Adjust HDR](../components/Adjust_HDR.md)
+* ![IMAGE](../../images/icons/False_Color.png) [False Color](../components/False_Color.md)
+* ![IMAGE](../../images/icons/Glare_Postprocess.png) [Glare Postprocess](../components/Glare_Postprocess.md)
+* ![IMAGE](../../images/icons/HDR_to_GIF.png) [HDR to GIF](../components/HDR_to_GIF.md)
+* ![IMAGE](../../images/icons/Model_to_Rad_Folder.png) [Model to Rad Folder](../components/Model_to_Rad_Folder.md)
