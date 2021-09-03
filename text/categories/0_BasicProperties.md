@@ -1,0 +1,13 @@
+#### Component list:
+* ![IMAGE](../../images/icons/Face_Radiance_Attributes.png) [Face Radiance Attributes](../components/Face_Radiance_Attributes.md)
+* ![IMAGE](../../images/icons/Room_Radiance_Attributes.png) [Room Radiance Attributes](../components/Room_Radiance_Attributes.md)
+* ![IMAGE](../../images/icons/Dynamic_Aperture_Group.png) [Dynamic Aperture Group](../components/Dynamic_Aperture_Group.md)
+* ![IMAGE](../../images/icons/Dynamic_Shade_Group.png) [Dynamic Shade Group](../components/Dynamic_Shade_Group.md)
+* ![IMAGE](../../images/icons/Dynamic_State.png) [Dynamic State](../components/Dynamic_State.md)
+* ![IMAGE](../../images/icons/Dynamic_State_Geometry.png) [Dynamic State Geometry](../components/Dynamic_State_Geometry.md)
+* ![IMAGE](../../images/icons/Sensor_Grid.png) [Sensor Grid](../components/Sensor_Grid.md)
+* ![IMAGE](../../images/icons/Sensor_Grid_from_Rooms.png) [Sensor Grid from Rooms](../components/Sensor_Grid_from_Rooms.md)
+* ![IMAGE](../../images/icons/View.png) [View](../components/View.md)
+* ![IMAGE](../../images/icons/View_from_Viewport.png) [View from Viewport](../components/View_from_Viewport.md)
+* ![IMAGE](../../images/icons/Assign_Grids_and_Views.png) [Assign Grids and Views](../components/Assign_Grids_and_Views.md)
+* ![IMAGE](../../images/icons/Get_Grids_and_Views.png) [Get Grids and Views](../components/Get_Grids_and_Views.md)
