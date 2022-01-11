@@ -9,6 +9,8 @@ Add radiance Sensor Grids and/or Views to a Honeybee Model.
 
 This assignment is necessary for any Radiance study, though whether a grid or a view is required for a particular type of study is depenednet upon the recipe used. 
 
+Multiple copies of this component can be used in series and each will add the grids or views to any that already exist. 
+
 
 
 #### Inputs

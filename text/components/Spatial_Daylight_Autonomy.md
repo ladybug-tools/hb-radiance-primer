@@ -9,11 +9,13 @@ Calculate Spatial Daylight Autonomy (sDA) from lists of daylight autonomy values
 
 As per IES-LM-83-12 Spatial Daylight Autonomy (sDA) is a metric describing annual sufficiency of ambient daylight levels in interior environments. It is defined as the percent of an analysis area (the area where calcuations are performed -typically across an entire space) that meets a minimum daylight illuminance level for a specified fraction of the operating hours per year. The sDA value is expressed as a percentage of area. 
 
+Note: This component will only output a LEED compliant sDA if you've run the simulation with dynamic blinds and blind schedules as per the IES-LM-83-12 standard. If you are not using dynamic blinds, then this output is NOT LEED compliant. 
+
 
 
 #### Inputs
 * ##### DA [Required]
-A data tree of daylight autonomy values output from the "HB Annual Dalyight" recipe or the "HB Annual Daylight Metrics" component. 
+A data tree of daylight autonomy values output from the "HB Annual Dalyight" recipe or the "HB Annual Daylight Metrics" component. Note that, unless these DA values follow LM83 dynamic blinds setup, the resulting sDA is not LEED compliant. 
 * ##### mesh 
 An optional list of Meshes that align with the _DA data tree above, which will be used to assign an area to each sensor. If no mesh is connected here, it will be assumed that each sensor represents an equal area to all of the others. 
 * ##### target_DA 

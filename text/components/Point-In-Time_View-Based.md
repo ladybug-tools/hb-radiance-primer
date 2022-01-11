@@ -38,8 +38,6 @@ Either an integer or the full name of a point-in-time metric to be computed by t
 An integer for the maximum dimension of each image in pixels (either width or height depending on the input view angle and type). (Default: 800). 
 * ##### view_filter 
 Text for a view identifer or a pattern to filter the views of the model that are simulated. For instance, `first_floor_*` will simulate only the views that have an identifier that starts with `first_floor_`. By default, all views in the model will be simulated. 
-* ##### view_count 
-Number of views into which each Model view will be subdivided  for parallelized calculation. If unspecified, an attempt will be made to set this to an optimal value based on the number of workers dedicated for the simulation and the number of view in the Model. If the number of views could not be sensed, this will default to 2. 
 * ##### skip_overture 
 A boolean to note whether an ambient file (.amb) should be generated for an overture calculation before the view is split into smaller views. With an overture calculation, the ambient file (aka ambient cache) is first populated with values. Thereby ensuring that - when reused to create an image - Radiance uses interpolation between already calculated values rather than less reliable extrapolation. The overture calculation has comparatively small computation time to full rendering but is single-core can become time consuming in situations with a high view_count_ and workers. 
 * ##### radiance_par 

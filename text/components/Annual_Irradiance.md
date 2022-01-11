@@ -24,8 +24,6 @@ An integer for the timestep of the inpput _wea. This value is used to compute av
 A number between -360 and 360 for the counterclockwise difference between the North and the positive Y-axis in degrees. This can also be Vector for the direction to North. (Default: 0). 
 * ##### grid_filter 
 Text for a grid identifer or a pattern to filter the sensor grids of the model that are simulated. For instance, first_floor_* will simulate only the sensor grids that have an identifier that starts with first_floor_. By default, all grids in the model will be simulated. 
-* ##### sensor_count 
-Integer for the maximum number of sensor grid points per parallel execution. (Default: 200). 
 * ##### radiance_par 
 Text for the radiance parameters to be used for ray tracing. (Default: -ab 2 -ad 5000 -lw 2e-05). 
 * ##### run_settings 
