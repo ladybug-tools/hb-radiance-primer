@@ -75,4 +75,5 @@
 		* [False Color](text/components/False_Color.md)
 		* [Glare Postprocess](text/components/Glare_Postprocess.md)
 		* [HDR to GIF](text/components/HDR_to_GIF.md)
+		* [Extract HDR](text/components/Extract_HDR.md)
 		* [Model to Rad Folder](text/components/Model_to_Rad_Folder.md)

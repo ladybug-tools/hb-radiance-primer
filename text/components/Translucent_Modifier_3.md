@@ -5,7 +5,9 @@
 ![](../../images/icons/Translucent_Modifier_3.png) - [[source code]](https://github.com/ladybug-tools/honeybee-grasshopper-radiance/blob/master/honeybee_grasshopper_radiance/src//HB%20Translucent%20Modifier%203.py)
 
 
-Create a translucent radiance modifier from a reflectances and transmittances. 
+Create a translucent radiance modifier from reflectances and transmittances. 
+
+The sum of the reflectances and transmittances must be less than 1 and any energy not transmitted or reflected is assumed to be absorbed. 
 
 
 
@@ -20,8 +22,8 @@ A number between 0 and 1 for the green diffuse reflectance.
 A number between 0 and 1 for the blue diffuse reflectance. 
 * ##### diff_trans [Required]
 A number between 0 and 1 for the transmitted diffuse component. This is the fraction of transmitted light that is diffusely scattered. 
-* ##### spec_trans [Required]
-A number between 0 and 1 for the transmitted specular component. This is the fraction of transmitted light that is not diffusely scattered but passes through like a beam. 
+* ##### spec_trans 
+A number between 0 and 1 for the transmitted specular component. This is the fraction of transmitted light that is not diffusely scattered but passes through like a beam. (Default: 0). 
 * ##### spec 
 A number between 0 and 1 for the fraction of specularity. Specularity fractions greater than 0.1 are not common in non-metallic materials. (Default: 0). 
 * ##### rough 

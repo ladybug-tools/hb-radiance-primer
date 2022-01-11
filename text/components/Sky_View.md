@@ -22,8 +22,6 @@ A Honeybee Model for which Sky View or Wky Exposure will be simulated. Note that
 A boolean to note whether a uniform sky should be used  (False) or a cloudy overcast sky (True). (Default: False). 
 * ##### grid_filter 
 Text for a grid identifer or a pattern to filter the sensor grids of the model that are simulated. For instance, `first_floor_*` will simulate only the sensor grids that have an identifier that starts with `first_floor_`. By default, all grids in the model will be simulated. 
-* ##### sensor_count 
-Integer for the maximum number of sensor grid points per parallel execution. (Default: 200). 
 * ##### radiance_par 
 Text for the radiance parameters to be used for ray tracing. (Default: -ab 2 -aa 0.1 -ad 2048 -ar 64). 
 * ##### run_settings 

@@ -10,4 +10,5 @@
 * ![IMAGE](../../images/icons/False_Color.png) [False Color](../components/False_Color.md)
 * ![IMAGE](../../images/icons/Glare_Postprocess.png) [Glare Postprocess](../components/Glare_Postprocess.md)
 * ![IMAGE](../../images/icons/HDR_to_GIF.png) [HDR to GIF](../components/HDR_to_GIF.md)
+* ![IMAGE](../../images/icons/Extract_HDR.png) [Extract HDR](../components/Extract_HDR.md)
 * ![IMAGE](../../images/icons/Model_to_Rad_Folder.png) [Model to Rad Folder](../components/Model_to_Rad_Folder.md)

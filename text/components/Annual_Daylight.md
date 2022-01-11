@@ -32,8 +32,6 @@ A string to change the threshold for daylight autonomy and useful daylight illum
 An annual occupancy schedule, either as a Ladybug Hourly Continuous Data Collection or a HB-Energy schedule object. This can also be the path to a CSV file with 8760 rows or the identifier of a schedule in the honeybee-energy schedule library. Any value in this schedule that is 0.1 or above will be considered occupied. 
 * ##### grid_filter 
 Text for a grid identifer or a pattern to filter the sensor grids of the model that are simulated. For instance, first_floor_* will simulate only the sensor grids that have an identifier that starts with first_floor_. By default, all grids in the model will be simulated. 
-* ##### sensor_count 
-Integer for the maximum number of sensor grid points per parallel execution. (Default: 200). 
 * ##### radiance_par 
 Text for the radiance parameters to be used for ray tracing. (Default: -ab 2 -ad 5000 -lw 2e-05). 
 * ##### run_settings 
@@ -47,7 +45,7 @@ Reports, errors, warnings, etc.
 * ##### results
 Folder with raw result files (.ill) that contain illuminance matrices. 
 * ##### DA
-Daylight autonomy results in percent. DA is the percentage of occupied hours that each sensor recieves equal or more than the illuminance threshold. Each value is for a different sensor of the grid. These can be plugged into the "LB Spatial Heatmap" component along with meshes of the sensor grids to visualize results. These can also be connected to the "HB Spatial Daylight Autonomy" component to compute spatial daylight autonomy for each grid. 
+Daylight autonomy results in percent. DA is the percentage of occupied hours that each sensor recieves equal or more than the illuminance threshold. Each value is for a different sensor of the grid. These can be plugged into the "LB Spatial Heatmap" component along with meshes of the sensor grids to visualize results. These can also be connected to the "HB Spatial Daylight Autonomy" component to compute spatial daylight autonomy for each grid. Note that the resulting sDA is only compliant with LEED if dynamic blinds have been simulated using the methods in IES-LM-83-12. 
 * ##### cDA
 Continuous daylight autonomy results in percent. cDA is similar to DA except that values below the illuminance threshold can still count partially towards the final percentage. Each value is for a different sensor of the grid. These can be plugged into the "LB Spatial Heatmap" component along with meshes of the sensor grids to visualize results. 
 * ##### UDI
