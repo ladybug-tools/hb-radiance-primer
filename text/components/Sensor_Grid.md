@@ -13,7 +13,7 @@ Create a Sensor Grid object that can be used in a grid-based recipe.
 * ##### name 
 A name for this sensor grid. 
 * ##### positions [Required]
-A list or a datatree of points with one point for the position of eah sensor. Each branch of the datatree will be considered as a separate sensor grid. 
+A list or a datatree of points with one point for the position of each sensor. Each branch of the datatree will be considered as a separate sensor grid. 
 * ##### directions 
 A list or a datatree of vectors with one vector for the direction of each sensor. The input here MUST therefor align with the input _positions. If no value is provided (0, 0, 1) will be assigned for all the sensors. 
 * ##### mesh 

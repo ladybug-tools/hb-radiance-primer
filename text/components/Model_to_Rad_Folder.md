@@ -14,6 +14,8 @@ This Radiance Model Folder is what is used to run various types of Radiance stud
 #### Inputs
 * ##### model [Required]
 A honeybee model object possessing all geometry, radiance modifiers and simulation assets like Sensor Grids and Views. 
+* ##### minimal 
+Boolean to note whether the radiance strings should be written in a minimal format (with spaces instead of line breaks). (Default: False). 
 * ##### folder 
 Path to a folder to into which the Model Radiance Folder will be written. If unspecified, it will be written to a sub-folder within the default simulation folder. 
 * ##### write [Required]

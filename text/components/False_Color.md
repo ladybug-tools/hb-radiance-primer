@@ -28,6 +28,8 @@ Number for the conversion factor (aka. multiplier) for the results. The default 
 Set to True ro render the image with colored contour lines. 
 * ##### extrema 
 Set to True to cause extrema points to be printed on the brightest and darkest pixels of the input picture. 
+* ##### mask 
+A boolen to note whether pixels with a value of zero should be masked in black. (Default: False). 
 * ##### color_palette 
 Optional interger or text to change the color palette. Choose from the following. 
 

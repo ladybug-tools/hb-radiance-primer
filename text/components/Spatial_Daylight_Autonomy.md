@@ -18,8 +18,8 @@ Note: This component will only output a LEED compliant sDA if you've run the sim
 A data tree of daylight autonomy values output from the "HB Annual Dalyight" recipe or the "HB Annual Daylight Metrics" component. Note that, unless these DA values follow LM83 dynamic blinds setup, the resulting sDA is not LEED compliant. 
 * ##### mesh 
 An optional list of Meshes that align with the _DA data tree above, which will be used to assign an area to each sensor. If no mesh is connected here, it will be assumed that each sensor represents an equal area to all of the others. 
-* ##### target_DA 
-A number for the minimum target value for daylight autonomy at wich a given sensor is considered well daylit. (default: 50). 
+* ##### target_time 
+A minimum threshold of occupied time (eg. 50% of the time), above which a given sensor passes and contributes to the spatial daylight autonomy. (Default: 50%). 
 
 #### Outputs
 * ##### report

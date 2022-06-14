@@ -23,6 +23,8 @@ Boolean to note whether meshing should be done using Rhino's defaults (False), w
 FOR ADVANCED USERS: This input can also be a vector object that will be used to set the orientation of the quad-only grid. Note that, if a vector is input here that is not aligned with the plane of the room's floors, an error will be raised. 
 * ##### remove_out 
 Boolean to note whether an extra check should be run to remove sensor points that lie outside the Room volume. Note that this can add significantly to the component's run time and this check is usually not necessary in the case that all walls are vertical and all floors are horizontal (Default: False). 
+* ##### wall_offset 
+A number for the distance at which sensors close to walls should be removed. 
 
 #### Outputs
 * ##### grid
@@ -30,4 +32,4 @@ A SensorGrid object that can be used in a grid-based recipe.
 * ##### points
 The points that are at the center of each grid cell. 
 * ##### mesh
-Analysis mesh that can be passed to the 'Color Mesh' component. 
+Analysis mesh that can be passed to the 'Spatial Heatmap' component. 

@@ -11,7 +11,7 @@ Such controls will dim the lights in the energy simulation according to whether 
 
 In addition to benefiting from the accuracy of Radiance, using this component has several advantages over the "HB Apply Daylight Control" component under HB-Energy. Notably, it can account for setups with multiple illuminance sensors. 
 
-This component expects the annual daylight simulation to be run with one sensor grid per room in the model. If the sensor grids within the annual daylight simulation are distrbuted over the entire floor of each room, the resulting schedules will be idealized, where light dimming has been optimized to supply the minimum illuminance setpoint everywhere in the room. Grids with one, two, or more sensors can be used to model setups where fractions of each room are controlled by different sensors. 
+This component will generate one schedule per sensor grid in the simulation. Each grid should have sensors at the locations in space where daylight dimming sensors are located. Grids with one, two, or more sensors can be used to model setups where fractions of each room are controlled by different sensors. If the sensor grids are distributed over the entire floor of the rooms, the resulting schedules will be idealized, where light dimming has been optimized to supply the minimum illuminance setpoint everywhere in the room. 
 
 
 
@@ -26,7 +26,7 @@ A number for the illuminance setpoint in lux beyond which electric lights are di
 * ##### min_power_in 
 A number between 0 and 1 for the the lowest power the lighting system can dim down to, expressed as a fraction of maximum input power. (Default: 0.3). 
 * ##### min_light_out 
-A number between 0 and 1 the lowest lighting output the lighting system can dim down to, expressed as a fraction of maximum light output. Note that setting this to 1 means lights aren't dimmed at all until the illuminance setpoint is reached. This can be used to approximate manual light-switching behaviour when used in conjunction with the off_at_min_ output below. (Default: 0.2). 
+A number between 0 and 1 the lowest lighting output the lighting system can dim down to, expressed as a fraction of maximum light output. Note that setting this to 1 means lights aren't dimmed at all until the illuminance setpoint is reached. This can be used to approximate manual light-switching behavior when used in conjunction with the off_at_min_ output below. (Default: 0.2). 
 * ##### off_at_min 
 Boolean to note whether lights should switch off completely when they get to the minimum power input. (Default: False). 
 

@@ -43,7 +43,7 @@ Set to True to run the recipe and get results. This input can also be the intege
 * ##### report
 Reports, errors, warnings, etc. 
 * ##### results
-Folder with raw result files (.ill) that contain illuminance matrices. 
+Raw result files (.ill) that contain illuminance matrices for each sensor at each hour of the simulation. These can be postprocessed using various components under the 4::Results sub-tab. 
 * ##### DA
 Daylight autonomy results in percent. DA is the percentage of occupied hours that each sensor recieves equal or more than the illuminance threshold. Each value is for a different sensor of the grid. These can be plugged into the "LB Spatial Heatmap" component along with meshes of the sensor grids to visualize results. These can also be connected to the "HB Spatial Daylight Autonomy" component to compute spatial daylight autonomy for each grid. Note that the resulting sDA is only compliant with LEED if dynamic blinds have been simulated using the methods in IES-LM-83-12. 
 * ##### cDA

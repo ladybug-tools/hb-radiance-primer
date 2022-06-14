@@ -11,3 +11,6 @@
 * ![IMAGE](../../images/icons/View_from_Viewport.png) [View from Viewport](../components/View_from_Viewport.md)
 * ![IMAGE](../../images/icons/Assign_Grids_and_Views.png) [Assign Grids and Views](../components/Assign_Grids_and_Views.md)
 * ![IMAGE](../../images/icons/Get_Grids_and_Views.png) [Get Grids and Views](../components/Get_Grids_and_Views.md)
+* ![IMAGE](../../images/icons/Radial_Grid_from_Rooms.png) [Radial Grid from Rooms](../components/Radial_Grid_from_Rooms.md)
+* ![IMAGE](../../images/icons/Radial_Sensor_Grid.png) [Radial Sensor Grid](../components/Radial_Sensor_Grid.md)
+* ![IMAGE](../../images/icons/Section_Plane_View.png) [Section Plane View](../components/Section_Plane_View.md)
