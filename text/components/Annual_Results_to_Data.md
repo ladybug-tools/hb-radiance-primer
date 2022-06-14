@@ -18,6 +18,10 @@ An list of annual Radiance result files from the "HB Annual Daylight" component 
 An optional point or list of points, which will be used to filter the sensors for which data collections will be imported. If there is an input here, the all_pts_ must be connected. 
 * ##### all_pts 
 The data tree of all sensor points that were used in the simulation. This is required in order to look up the index of the sel_pts_ in the results matrices. 
+* ##### sel_vecs 
+An optional vector or list of vectors, which will be used to filter the sensors for which data collections will be imported. If there is an input here, the all_vecs_ must be connected. 
+* ##### all_vecs 
+The data tree of all sensor directions that were used in the simulation. This is required in order to look up the index of the sel_vecs_ in the results matrices. 
 
 #### Outputs
 * ##### report

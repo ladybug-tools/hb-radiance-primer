@@ -20,6 +20,8 @@ A Honeybee Model for which Annual Irradiance will be simulated. Note that this m
 A Wea object produced from the Wea components that are under the Light Sources tab. This can also be the path to a .wea or a .epw file. 
 * ##### timestep 
 An integer for the timestep of the inpput _wea. This value is used to compute average irradiance and cumulative radiation. (Default: 1) 
+* ##### visible 
+Boolean to indicate the type of irradiance output, which can be solar (False) or visible (True). Note that the output values will still be irradiance (W/m2) when "visible" is selected but these irradiance values will be just for the visible portion of the electromagnetic spectrum. The visible irradiance values can be converted into illuminance by multiplying them by the Radiance luminous efficacy factor of 179. (Default: False). 
 * ##### north 
 A number between -360 and 360 for the counterclockwise difference between the North and the positive Y-axis in degrees. This can also be Vector for the direction to North. (Default: 0). 
 * ##### grid_filter 
@@ -36,6 +38,8 @@ Set to True to run the recipe and get results. This input can also be the intege
 Reports, errors, warnings, etc. 
 * ##### results
 Raw result files (.ill) that contain matrices of irradiance in W/m2 for each time step of the wea. 
+* ##### res_direct
+Raw result files (.ill) that contain irradiance matrices for just the direct sun at each hour of the simulation. These can be postprocessed using various components under the 4::Results sub-tab. 
 * ##### avg_irr
 The average irradiance in W/m2 for each sensor over the Wea time period. 
 * ##### peak_irr

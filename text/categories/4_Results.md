@@ -1,5 +1,6 @@
 #### Component list:
 * ![IMAGE](../../images/icons/Annual_Daylight_Metrics.png) [Annual Daylight Metrics](../components/Annual_Daylight_Metrics.md)
+* ![IMAGE](../../images/icons/Annual_Glare_Metrics.png) [Annual Glare Metrics](../components/Annual_Glare_Metrics.md)
 * ![IMAGE](../../images/icons/Daylight_Control_Schedule.png) [Daylight Control Schedule](../components/Daylight_Control_Schedule.md)
 * ![IMAGE](../../images/icons/Spatial_Daylight_Autonomy.png) [Spatial Daylight Autonomy](../components/Spatial_Daylight_Autonomy.md)
 * ![IMAGE](../../images/icons/Annual_Average_Values.png) [Annual Average Values](../components/Annual_Average_Values.md)

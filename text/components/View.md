@@ -39,4 +39,4 @@ A number for the view vertical size (-vv) in degrees. For a perspective projecti
 
 #### Outputs
 * ##### view
-A Honeybee View object that can be used in an image-based recipe. 
+A Honeybee View object that can be used in an view-based recipe. 

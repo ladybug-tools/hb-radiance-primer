@@ -33,4 +33,4 @@ Connect a Grasshopper "button" component to refresh the orientation upon hitting
 
 #### Outputs
 * ##### view
-A Honeybee View object that can be used in an image-based recipe. 
+A Honeybee View object that can be used in a view-based recipe. 

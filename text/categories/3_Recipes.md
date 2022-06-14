@@ -1,6 +1,7 @@
 #### Component list:
 * ![IMAGE](../../images/icons/Annual_Daylight.png) [Annual Daylight](../components/Annual_Daylight.md)
 * ![IMAGE](../../images/icons/Annual_Irradiance.png) [Annual Irradiance](../components/Annual_Irradiance.md)
+* ![IMAGE](../../images/icons/Imageless_Annual_Glare.png) [Imageless Annual Glare](../components/Imageless_Annual_Glare.md)
 * ![IMAGE](../../images/icons/Point-In-Time_Grid-Based.png) [Point-In-Time Grid-Based](../components/Point-In-Time_Grid-Based.md)
 * ![IMAGE](../../images/icons/Point-In-Time_View-Based.png) [Point-In-Time View-Based](../components/Point-In-Time_View-Based.md)
 * ![IMAGE](../../images/icons/Cumulative_Radiation.png) [Cumulative Radiation](../components/Cumulative_Radiation.md)
@@ -9,3 +10,4 @@
 * ![IMAGE](../../images/icons/Sky_View.png) [Sky View](../components/Sky_View.md)
 * ![IMAGE](../../images/icons/Check_Scene.png) [Check Scene](../components/Check_Scene.md)
 * ![IMAGE](../../images/icons/Radiance_Parameter.png) [Radiance Parameter](../components/Radiance_Parameter.md)
+* ![IMAGE](../../images/icons/Ambient_Resolution.png) [Ambient Resolution](../components/Ambient_Resolution.md)
