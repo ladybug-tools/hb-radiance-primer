@@ -14,10 +14,10 @@ The resulting data collections can be visulized using the ladybug components or 
 #### Inputs
 * ##### results [Required]
 An list of annual Radiance result files from the "HB Annual Daylight" component (containing the .ill files and the sun-up-hours.txt). This can also be just the path to the folder containing these result files. 
-* ##### sel_pts 
-An optional point or list of points, which will be used to filter the sensors for which data collections will be imported. If there is an input here, the all_pts_ must be connected. 
-* ##### all_pts 
-The data tree of all sensor points that were used in the simulation. This is required in order to look up the index of the sel_pts_ in the results matrices. 
+* ##### sel_pts [Required]
+A point or list of points, which will be used to filter the sensors for which data collections will be imported. 
+* ##### all_pts [Required]
+The data tree of all sensor points that were used in the simulation. This is required in order to look up the index of the _sel_pts in the results matrices. 
 * ##### sel_vecs 
 An optional vector or list of vectors, which will be used to filter the sensors for which data collections will be imported. If there is an input here, the all_vecs_ must be connected. 
 * ##### all_vecs 
