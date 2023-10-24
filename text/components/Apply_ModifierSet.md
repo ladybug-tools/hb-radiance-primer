@@ -11,7 +11,7 @@ Apply ModifierSet to Honeybee Rooms.
 
 #### Inputs
 * ##### rooms [Required]
-Honeybee Rooms to which the input _mod_set should be assigned. 
+Honeybee Rooms to which the input _mod_set should be assigned. This can also be a Honeybee Model for which all Rooms will be assigned the ModifierSet. 
 * ##### mod_set [Required]
 A Honeybee ModifierSet to be applied to the input _room. This can also be text for a modifier set to be looked up in the modifier set library. 
 

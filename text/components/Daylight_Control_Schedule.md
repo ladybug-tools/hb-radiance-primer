@@ -18,6 +18,8 @@ This component will generate one schedule per sensor grid in the simulation. Eac
 #### Inputs
 * ##### results [Required]
 An list of annual Radiance result files from the "HB Annual Daylight" component (containing the .ill files and the sun-up-hours.txt). This can also be just the path to the folder containing these result files. 
+* ##### dyn_sch 
+Optional dynamic Aperture Group Schedules from the "HB Aperture Group Schedule" component, which will be used to customize the behavior of any dyanmic aperture geometry in the output metrics. If unsupplied, all dynamic aperture groups will be in their default state in for the output metrics. 
 * ##### base_schedule 
 A lighting schedule representing the usage of lights without any daylight controls. The values of this schedule will be multiplied by the hourly dimming fraction to yield the output lighting schedules. The format of this schedule can be a Ladybug Data Collection, a HB-Energy schedule object, or the identifier of a schedule in the HB-Energy schedule library. If None, a schedule from 9AM to 5PM on weekdays will be used. 
 * ##### ill_setpoint 

@@ -26,6 +26,8 @@ Text for the unit of the legend. If unspecified, an attempt will be made to sens
 Number for the conversion factor (aka. multiplier) for the results. The default is either 1 or 179 depending on whether the image is for radiance or irradiance to luminance or illuminance, respectively. 
 * ##### contour_lines 
 Set to True ro render the image with colored contour lines. 
+* ##### logarithmic 
+Number of decades to use with a logarithmic legend scale. Decades are the number of intervals of 10 below the maximum scale. If unspecified, a linear scale is used. 
 * ##### extrema 
 Set to True to cause extrema points to be printed on the brightest and darkest pixels of the input picture. 
 * ##### mask 
