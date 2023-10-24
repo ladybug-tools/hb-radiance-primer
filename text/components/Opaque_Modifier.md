@@ -13,9 +13,9 @@ Create an opaque radiance modifier from a single reflectance.
 * ##### name 
 Text to set the name for the modifier and to be incorporated into a unique modifier identifier. 
 * ##### reflect [Required]
-A number between 0 and 1 for the opaque modifier reflectance. This reflectance will be the same for the red, green and blue channels. 
+A number between 0 and 1 for the absolute diffuse reflectance of the modifier. This reflectance will be the same for the red, green and blue channels. 
 * ##### spec 
-A number between 0 and 1 for the fraction of specularity. Specularity fractions greater than 0.1 are not common in non-metallic materials (Default: 0). 
+A number between 0 and 1 for the absolute specular reflectance of the modifier. Note that the sum of this value and the diffuse _reflect should be less than one. Specular reflectances greater than 0.1 are rare for non-metallic materials. (Default: 0). 
 * ##### rough 
 Roughness is specified as the rms slope of surface facets. A value of 0 corresponds to a perfectly smooth surface, and a value of 1 would be a very rough surface. Roughness values greater than 0.2 are not very realistic. (Default: 0). 
 
