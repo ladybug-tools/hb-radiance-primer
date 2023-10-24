@@ -20,6 +20,8 @@ An integer between 1 and 12 for the month of the year (default: 6).
 An integer between 1 and 31 for the day of the month (default: 21). 
 * ##### hour 
 A number between 0 and 23.999.. for the hour of the day (default: 12). 
+* ##### colored 
+Boolean to note whether the sky will be rendered in full color (True) or it will simple be a grey sky with the same average value as the colored sky (False). (Default: False). 
 
 #### Outputs
 * ##### sky

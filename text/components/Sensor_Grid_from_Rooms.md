@@ -19,7 +19,7 @@ Number for the size of the grid cells.
 * ##### dist_floor 
 Number for the distance to move points from the floors of the input rooms. The default is 0.8 meters. 
 * ##### quad_only 
-Boolean to note whether meshing should be done using Rhino's defaults (False), which fills the entire _geometry to the edges with both quad and tringulated faces, or a mesh with only quad faces should be generated. 
+Boolean to note whether meshing should be done using Rhino's defaults (False), which fills the entire floor geometry to the edges with both quad and tringulated faces, or a mesh with only quad faces should be generated. 
 FOR ADVANCED USERS: This input can also be a vector object that will be used to set the orientation of the quad-only grid. Note that, if a vector is input here that is not aligned with the plane of the room's floors, an error will be raised. 
 * ##### remove_out 
 Boolean to note whether an extra check should be run to remove sensor points that lie outside the Room volume. Note that this can add significantly to the component's run time and this check is usually not necessary in the case that all walls are vertical and all floors are horizontal (Default: False). 

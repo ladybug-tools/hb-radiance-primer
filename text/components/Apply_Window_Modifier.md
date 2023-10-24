@@ -13,7 +13,7 @@ This component supports the assigning of different modifiers based on cardinal o
 
 #### Inputs
 * ##### hb_objs [Required]
-Honeybee Apertures, Faces, Doors or Rooms to which the input _mod should be assigned. For the case of a Honeybee Room, the modifier will only be applied to the apertures in the the Room's outdoor walls. Note that, if you need to assign a modifier to all the skylights, glass doors, etc. of a Room, the best practice is to create a ModifierSet and assing that to the Room. 
+Honeybee Apertures, Faces, Doors, Rooms or a Model to which the input _mod should be assigned. For the case of Rooms or a Model, the modifier will only be applied to the apertures in the the Room's outdoor walls. Note that, if you need to assign a modifier to all the skylights, glass doors, etc. of a Room, the best practice is to create a ModifierSet and assing that to the Room. 
 * ##### mod [Required]
 A Honeybee Modifier to be applied to the input _hb_objs. This can also be text for a modifier to be looked up in the window modifier library. If an array of text or modifier objects are input here, different modifiers will be assigned based on cardinal direction, starting with north and moving clockwise. 
 

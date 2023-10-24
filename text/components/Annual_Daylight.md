@@ -7,7 +7,9 @@
 
 Run an annual daylight study for a Honeybee model to compute hourly illuminance for each sensor in a model's sensor grids. 
 
-This recipe uses an enhanced 2-phase method for daylight simulation which accurately models direct sun by tracing rays from each sensor to the solar position at each hour of the calculation. 
+By default, this recipe uses an enhanced 2-phase method, which accurately models direct sun by tracing rays from each sensor to the solar position at each hour of the calculation. This makes the result suitable for computing Annual Sun Exposure (ASE) and for modeling the effects of dynamic shades and apertures. 
+
+When the enhanced_ option is set to False, a standard 2-phase method for simulation, which is much faster because it simply determines the relationship between each sensor and sky patch and then multiplies the value of each sky patch at each hour by the relationship coefficient. However, this means that the direct sun is spread out across a few sky patches, making it unsuitable for ASE. 
 
 The resulting illuminance is used to compute the following metrics: 
 
@@ -34,6 +36,8 @@ An annual occupancy schedule, either as a Ladybug Hourly Continuous Data Collect
 Text for a grid identifer or a pattern to filter the sensor grids of the model that are simulated. For instance, first_floor_* will simulate only the sensor grids that have an identifier that starts with first_floor_. By default, all grids in the model will be simulated. 
 * ##### radiance_par 
 Text for the radiance parameters to be used for ray tracing. (Default: -ab 2 -ad 5000 -lw 2e-05). 
+* ##### enhanced 
+Boolean to note whether an enhanced version of the 2-phase ray tracing simulation should be used, which will more accurately account for direct sun at each time step. If False, only a 2-phase daylight coefficient calculation with sky patches will be used, which is much faster but spreads the direct sun out across a few sky patches, making it unsuitable for ASE. (Default: True). 
 * ##### run_settings 
 Settings from the "HB Recipe Settings" component that specify how the recipe should be run. This can also be a text string of recipe settings. 
 * ##### run [Required]

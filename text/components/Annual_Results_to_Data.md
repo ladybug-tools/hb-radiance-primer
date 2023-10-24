@@ -14,6 +14,8 @@ The resulting data collections can be visulized using the ladybug components or 
 #### Inputs
 * ##### results [Required]
 An list of annual Radiance result files from the "HB Annual Daylight" component (containing the .ill files and the sun-up-hours.txt). This can also be just the path to the folder containing these result files. 
+* ##### dyn_sch 
+Optional dynamic Aperture Group Schedules from the "HB Aperture Group Schedule" component, which will be used to customize the behavior of any dyanmic aperture geometry in the output metrics. If unsupplied, all dynamic aperture groups will be in their default state in for the output metrics. 
 * ##### sel_pts [Required]
 A point or list of points, which will be used to filter the sensors for which data collections will be imported. 
 * ##### all_pts [Required]
