@@ -1,6 +1,6 @@
 #### Component list:
-* ![IMAGE](../../images/icons/Search_Mofidier_Sets.png) [Search Mofidier Sets](../components/Search_Mofidier_Sets.md)
-* ![IMAGE](../../images/icons/Search_Mofidiers.png) [Search Mofidiers](../components/Search_Mofidiers.md)
+* ![IMAGE](../../images/icons/Search_Modifier_Sets.png) [Search Modifier Sets](../components/Search_Modifier_Sets.md)
+* ![IMAGE](../../images/icons/Search_Modifiers.png) [Search Modifiers](../components/Search_Modifiers.md)
 * ![IMAGE](../../images/icons/BSModifier.png) [BSModifier](../components/BSModifier.md)
 * ![IMAGE](../../images/icons/Glass_Modifier.png) [Glass Modifier](../components/Glass_Modifier.md)
 * ![IMAGE](../../images/icons/Metal_Modifier.png) [Metal Modifier](../components/Metal_Modifier.md)

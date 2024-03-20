@@ -28,5 +28,5 @@ The name of a grid or a pattern to filter the grids. For instance, first_floor_*
 Reports, errors, warnings, etc. 
 * ##### ASE
 Annual sunlight exposure as a percentage for each sensor grid. 
-* ##### hrs_above_thresh
+* ##### hrs_above
 The number of hours above the threshold for each sensor point. These can be plugged into the "LB Spatial Heatmap" component along with meshes of the sensor grids to visualize results. 

@@ -1,8 +1,8 @@
-## Search Mofidier Sets
+## Search Modifier Sets
 
-![](../../images/components/Search_Mofidier_Sets.png)
+![](../../images/components/Search_Modifier_Sets.png)
 
-![](../../images/icons/Search_Mofidier_Sets.png) - [[source code]](https://github.com/ladybug-tools/honeybee-grasshopper-radiance/blob/master/honeybee_grasshopper_radiance/src//HB%20Search%20Mofidier%20Sets.py)
+![](../../images/icons/Search_Modifier_Sets.png) - [[source code]](https://github.com/ladybug-tools/honeybee-grasshopper-radiance/blob/master/honeybee_grasshopper_radiance/src//HB%20Search%20Modifier%20Sets.py)
 
 
 Search for available Mofidier Sets within the honeybee standards library. 
