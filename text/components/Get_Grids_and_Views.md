@@ -12,6 +12,10 @@ Get Radiance Sensor Grids and/or Views from a Honeybee Model and visualize them 
 #### Inputs
 * ##### model [Required]
 A Honeybee Model for which grids and views will be output. 
+* ##### view_filter 
+Text for a view identifer or a pattern to filter the views of the model that are output. For instance, `first_floor_*` will simulate only the views that have an identifier that starts with `first_floor_`. By default, all views in the model will be output. 
+* ##### grid_filter 
+Text for a grid identifer or a pattern to filter the sensor grids of the model that are output. For instance, first_floor_* will simulate only the sensor grids that have an identifier that starts with first_floor_. By default, all grids in the model will be output. 
 
 #### Outputs
 * ##### views

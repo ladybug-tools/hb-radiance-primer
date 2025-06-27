@@ -25,6 +25,8 @@ FOR ADVANCED USERS: This input can also be a vector object that will be used to 
 Boolean to note whether an extra check should be run to remove sensor points that lie outside the Room volume. Note that this can add significantly to the component's run time and this check is usually not necessary in the case that all walls are vertical and all floors are horizontal (Default: False). 
 * ##### wall_offset 
 A number for the distance at which sensors close to walls should be removed. 
+* ##### by_zone 
+Set to "True" to have the component generate one sensor grid per zone across the input rooms rather than one sensor grid per room. This option is useful for getting a more consolidated set of Radiance results by zone. (Default: False). 
 
 #### Outputs
 * ##### grid

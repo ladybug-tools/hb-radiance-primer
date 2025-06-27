@@ -26,6 +26,8 @@ A positive integer for the number of radial directions to be generated around ea
 A Vector3D to set the start direction of the generated directions. This can be used to orient the resulting sensors to specific parts of the scene. It can also change the elevation of the resulting directions since this start vector will always be rotated in the XY plane to generate the resulting directions. (Default: (0, -1, 0)). 
 * ##### wall_offset 
 A number for the distance at which sensors close to walls should be removed. 
+* ##### by_zone 
+Set to "True" to have the component generate one sensor grid per zone across the input rooms rather than one sensor grid per room. This option is useful for getting a more consolidated set of Radiance results by zone. (Default: False). 
 
 #### Outputs
 * ##### grid
