@@ -25,7 +25,7 @@ A fractional number for the threshold of DGP above which conditions are consider
 * ##### luminance_fac 
 Luminance factor in cd/m2. If the sky patch brightness is above this factor it will act as a glare source. (Default: 2000). 
 * ##### schedule 
-An annual occupancy schedule, either as a Ladybug Hourly Continuous Data Collection or a HB-Energy schedule object. This can also be the path to a CSV file with 8760 rows or the identifier of a schedule in the honeybee-energy schedule library. Any value in this schedule that is 0.1 or above will be considered occupied. 
+An annual occupancy schedule, either as a Ladybug Hourly Continuous Data Collection or a HB-Energy schedule object. This can also be the path to a CSV file with 8760 rows or the identifier of a schedule in the honeybee-energy schedule library. Any value in this schedule that is 0.1 or above will be considered occupied. If not provided, a default schedule that runs from 8 AM to 6 PM on all days will be used. 
 * ##### grid_filter 
 Text for a grid identifer or a pattern to filter the sensor grids of the model that are simulated. For instance, first_floor_* will simulate only the sensor grids that have an identifier that starts with first_floor_. By default, all grids in the model will be simulated. 
 * ##### radiance_par 

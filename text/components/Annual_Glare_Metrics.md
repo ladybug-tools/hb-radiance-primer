@@ -17,7 +17,7 @@ Spatial Glare Autonomy is a metric describing the percentage of the sensor grid 
 * ##### results [Required]
 An list of annual Radiance result files from the "HB Imageless Annual Glare" component (containing the .dgp files and the sun-up-hours.txt). This can also be just the path to the folder containing these result files. 
 * ##### occ_sch 
-An annual occupancy schedule as a Ladybug Data Collection or a HB-Energy schedule object. This can also be the identifier of a schedule in your HB-Energy schedule library. Any value in this schedule that is 0.1 or above will be considered occupied. If None, a schedule from 9AM to 5PM on weekdays will be used. 
+An annual occupancy schedule as a Ladybug Data Collection or a HB-Energy schedule object. This can also be the identifier of a schedule in your HB-Energy schedule library. Any value in this schedule that is 0.1 or above will be considered occupied. If None, a schedule from 8AM to 6PM on all days will be used. 
 * ##### glare_thresh 
 Threshold for glare autonomy (GA) in DGP (default: 0.4). 
 * ##### grid_filter 

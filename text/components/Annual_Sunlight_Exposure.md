@@ -15,7 +15,7 @@ Note: This component will only output a LEED compliant ASE if you've run the sim
 * ##### results [Required]
 An annual results folder containing direct illuminance results. This can be the output of the "HB Annual Daylight" component. This can also be just the path to the results folder. 
 * ##### occ_sch 
-An annual occupancy schedule as a Ladybug Data Collection or a HB-Energy schedule object. This can also be the identifier of a schedule in your HB-Energy schedule library. Any value in this schedule that is 0.1 or above will be considered occupied. If None, a schedule from 9AM to 5PM on weekdays will be used. 
+An annual occupancy schedule as a Ladybug Data Collection or a HB-Energy schedule object. This can also be the identifier of a schedule in your HB-Energy schedule library. Any value in this schedule that is 0.1 or above will be considered occupied. If None, a schedule from 8AM to 6PM on all days will be used. 
 * ##### threshold 
 The threshold (lux) that determines if a sensor is overlit (default: 1000). 
 * ##### target_hrs 
