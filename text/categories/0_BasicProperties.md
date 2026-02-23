@@ -13,6 +13,8 @@
 * ![IMAGE](../../images/icons/View_from_Viewport.png) [View from Viewport](../components/View_from_Viewport.md)
 * ![IMAGE](../../images/icons/Assign_Grids_and_Views.png) [Assign Grids and Views](../components/Assign_Grids_and_Views.md)
 * ![IMAGE](../../images/icons/Get_Grids_and_Views.png) [Get Grids and Views](../components/Get_Grids_and_Views.md)
+* ![IMAGE](../../images/icons/Assign_Luminaires.png) [Assign Luminaires](../components/Assign_Luminaires.md)
+* ![IMAGE](../../images/icons/Get_Luminaires.png) [Get Luminaires](../components/Get_Luminaires.md)
 * ![IMAGE](../../images/icons/Dynamic_Shade_Group.png) [Dynamic Shade Group](../components/Dynamic_Shade_Group.md)
 * ![IMAGE](../../images/icons/Get_Dynamic_Groups.png) [Get Dynamic Groups](../components/Get_Dynamic_Groups.md)
 * ![IMAGE](../../images/icons/Radial_Sensor_Grid.png) [Radial Sensor Grid](../components/Radial_Sensor_Grid.md)

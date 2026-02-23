@@ -9,6 +9,7 @@
 * ![IMAGE](../../images/icons/Annual_Cumulative_Values.png) [Annual Cumulative Values](../components/Annual_Cumulative_Values.md)
 * ![IMAGE](../../images/icons/Annual_Peak_Values.png) [Annual Peak Values](../components/Annual_Peak_Values.md)
 * ![IMAGE](../../images/icons/Annual_Results_to_Data.png) [Annual Results to Data](../components/Annual_Results_to_Data.md)
+* ![IMAGE](../../images/icons/Annual_Statistics.png) [Annual Statistics](../components/Annual_Statistics.md)
 * ![IMAGE](../../images/icons/Adjust_HDR.png) [Adjust HDR](../components/Adjust_HDR.md)
 * ![IMAGE](../../images/icons/False_Color.png) [False Color](../components/False_Color.md)
 * ![IMAGE](../../images/icons/Glare_Postprocess.png) [Glare Postprocess](../components/Glare_Postprocess.md)

@@ -13,7 +13,7 @@ Create a metal radiance modifier from a single reflectance.
 * ##### name 
 Text to set the name for the modifier and to be incorporated into a unique modifier identifier. 
 * ##### diff 
-Script variable MetalMod 
+A number between 0 and 1 for the absolute diffuse metal reflectance. This reflectance will be the same for the red, green and blue channels. (Default: 0) 
 * ##### spec 
 A number between 0 and 1 for the absolute specular reflectance of the modifier. Note that the sum of this value and the diffuse _reflect should be less than one. Specularity of metals is usually 0.9 or greater. (Default: 0.9) 
 * ##### rough 

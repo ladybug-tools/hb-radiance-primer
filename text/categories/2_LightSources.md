@@ -9,3 +9,7 @@
 * ![IMAGE](../../images/icons/Wea_from_Zhang-Huang.png) [Wea from Zhang-Huang](../components/Wea_from_Zhang-Huang.md)
 * ![IMAGE](../../images/icons/Deconstruct_Wea.png) [Deconstruct Wea](../components/Deconstruct_Wea.md)
 * ![IMAGE](../../images/icons/Visualize_Sky.png) [Visualize Sky](../components/Visualize_Sky.md)
+* ![IMAGE](../../images/icons/Custom_Lamp.png) [Custom Lamp](../components/Custom_Lamp.md)
+* ![IMAGE](../../images/icons/Luminaire.png) [Luminaire](../components/Luminaire.md)
+* ![IMAGE](../../images/icons/Luminaire_Zone.png) [Luminaire Zone](../components/Luminaire_Zone.md)
+* ![IMAGE](../../images/icons/Visualize_Luminaire.png) [Visualize Luminaire](../components/Visualize_Luminaire.md)
