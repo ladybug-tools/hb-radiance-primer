@@ -1,7 +1,12 @@
 #### Component list:
 * ![IMAGE](../../images/icons/Annual_Daylight.png) [Annual Daylight](../components/Annual_Daylight.md)
+* ![IMAGE](../../images/icons/Annual_Daylight_EN17037.png) [Annual Daylight EN17037](../components/Annual_Daylight_EN17037.md)
 * ![IMAGE](../../images/icons/Annual_Irradiance.png) [Annual Irradiance](../components/Annual_Irradiance.md)
+* ![IMAGE](../../images/icons/BREEAM_Daylight_4b.png) [BREEAM Daylight 4b](../components/BREEAM_Daylight_4b.md)
 * ![IMAGE](../../images/icons/Imageless_Annual_Glare.png) [Imageless Annual Glare](../components/Imageless_Annual_Glare.md)
+* ![IMAGE](../../images/icons/WELL_Daylight.png) [WELL Daylight](../components/WELL_Daylight.md)
+* ![IMAGE](../../images/icons/LEED_Option_I.png) [LEED Option I](../components/LEED_Option_I.md)
+* ![IMAGE](../../images/icons/LEED_Option_II.png) [LEED Option II](../components/LEED_Option_II.md)
 * ![IMAGE](../../images/icons/Point-In-Time_Grid-Based.png) [Point-In-Time Grid-Based](../components/Point-In-Time_Grid-Based.md)
 * ![IMAGE](../../images/icons/Point-In-Time_View-Based.png) [Point-In-Time View-Based](../components/Point-In-Time_View-Based.md)
 * ![IMAGE](../../images/icons/Cumulative_Radiation.png) [Cumulative Radiation](../components/Cumulative_Radiation.md)
